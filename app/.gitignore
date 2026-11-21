@@ -1,0 +1,33 @@
+# Gradle
+.gradle/
+**/build/
+
+# Android Studio
+.idea/
+*.iml
+
+# Local configuration
+local.properties
+.cxx/
+.externalNativeBuild/
+
+# Generated reports
+**/reports/
+
+# Secrets
+.env
+.env.*
+*.jks
+*.keystore
+
+# Temporary data
+temp_jacoco/
+temp_technical/
+
+# ZIP archives
+/*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+captures/

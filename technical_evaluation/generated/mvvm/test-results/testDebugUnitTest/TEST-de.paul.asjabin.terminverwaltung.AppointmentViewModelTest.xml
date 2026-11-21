@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.paul.asjabin.terminverwaltung.AppointmentViewModelTest" tests="8" skipped="0" failures="0" errors="0" timestamp="2026-11-14T12:05:29.041Z" hostname="DESKTOP-IJGFVF4" time="0.405">
+  <properties/>
+  <testcase name="addAppointment_whenExceptionHasNoMessage_usesFallbackErrorMessage" classname="de.paul.asjabin.terminverwaltung.AppointmentViewModelTest" time="0.368"/>
+  <testcase name="updateAppointment_whenAppointmentDoesNotExist_doesNothing" classname="de.paul.asjabin.terminverwaltung.AppointmentViewModelTest" time="0.006"/>
+  <testcase name="deleteAppointment_removesAppointmentFromRepository" classname="de.paul.asjabin.terminverwaltung.AppointmentViewModelTest" time="0.005"/>
+  <testcase name="loadAppointments_whenRepositoryFails_setsErrorState" classname="de.paul.asjabin.terminverwaltung.AppointmentViewModelTest" time="0.008"/>
+  <testcase name="addAppointment_savesAppointmentToRepository" classname="de.paul.asjabin.terminverwaltung.AppointmentViewModelTest" time="0.003"/>
+  <testcase name="addAppointment_whenRepositoryFails_setsErrorMessage" classname="de.paul.asjabin.terminverwaltung.AppointmentViewModelTest" time="0.003"/>
+  <testcase name="loadAppointments_whenRepositorySucceeds_setsAppointmentsAndClearsLoadingAndError" classname="de.paul.asjabin.terminverwaltung.AppointmentViewModelTest" time="0.002"/>
+  <testcase name="updateAppointment_updatesExistingAppointment" classname="de.paul.asjabin.terminverwaltung.AppointmentViewModelTest" time="0.004"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

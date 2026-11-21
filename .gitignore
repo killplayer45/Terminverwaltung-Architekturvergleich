@@ -1,0 +1,44 @@
+# Gradle
+.gradle/
+**/build/
+
+# Android Studio
+.idea/
+*.iml
+
+# Local configuration
+local.properties
+.cxx/
+.externalNativeBuild/
+
+# Generated reports
+**/reports/
+
+# Secrets
+.env
+.env.*
+*.jks
+*.keystore
+
+# Temporary data
+temp_jacoco/
+temp_technical/
+
+# ZIP archives
+/*.zip
+
+# OS files
+.DS_Store
+Thumbs.db
+captures/
+
+# Local JaCoCo archives
+/jacoco_evaluation/
+
+# Nonessential generated Detekt formats
+/technical_evaluation/generated/detekt/*/detekt.md
+/technical_evaluation/generated/detekt/*/detekt.sarif
+/technical_evaluation/generated/detekt/*/detekt.txt
+
+# Gradle test binary output
+/technical_evaluation/generated/*/test-results/**/binary/

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="de.paul.asjabin.terminverwaltung.mvi.AppointmentReducerTest" tests="10" skipped="0" failures="0" errors="0" timestamp="2026-11-14T12:06:01.160Z" hostname="DESKTOP-IJGFVF4" time="0.053">
+  <properties/>
+  <testcase name="deleteSuccessMovesFromPopulatedToEmpty" classname="de.paul.asjabin.terminverwaltung.mvi.AppointmentReducerTest" time="0.034"/>
+  <testcase name="writeSucceededWithoutPendingWriteKeepsWriteCountAtZero" classname="de.paul.asjabin.terminverwaltung.mvi.AppointmentReducerTest" time="0.0"/>
+  <testcase name="addSuccessCompletesWriteAndLoadedEventAddsAppointment" classname="de.paul.asjabin.terminverwaltung.mvi.AppointmentReducerTest" time="0.01"/>
+  <testcase name="writeFailureSetsErrorAndNextWriteRequestClearsIt" classname="de.paul.asjabin.terminverwaltung.mvi.AppointmentReducerTest" time="0.001"/>
+  <testcase name="loadIntentStartsLoadingAndClearsPreviousError" classname="de.paul.asjabin.terminverwaltung.mvi.AppointmentReducerTest" time="0.0"/>
+  <testcase name="writeFailedWithoutPendingWriteKeepsWriteCountAtZeroAndSetsError" classname="de.paul.asjabin.terminverwaltung.mvi.AppointmentReducerTest" time="0.001"/>
+  <testcase name="appointmentsLoadedFinishesLoadingWithAppointments" classname="de.paul.asjabin.terminverwaltung.mvi.AppointmentReducerTest" time="0.0"/>
+  <testcase name="loadingFailedEndsLoadingAndSetsError" classname="de.paul.asjabin.terminverwaltung.mvi.AppointmentReducerTest" time="0.0"/>
+  <testcase name="initialStateIsLoadingAndEmpty" classname="de.paul.asjabin.terminverwaltung.mvi.AppointmentReducerTest" time="0.0"/>
+  <testcase name="updateSuccessKeepsUpdatedAppointmentFromRepository" classname="de.paul.asjabin.terminverwaltung.mvi.AppointmentReducerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
